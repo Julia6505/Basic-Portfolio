@@ -1,0 +1,154 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    background-color: #4aaaa5;
+    position: fixed;
+    top: 0;
+    left: 53px;
+    width: 230px;
+    padding: 25px;
+    text-align: center;
+    float: left;
+    margin: 0;
+}
+
+.pageheader {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 86px;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    height: 86px;
+    border-bottom: solid;
+    border-color: #ccc;
+    
+}
+
+.profile-pic {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+
+nav {
+    position: relative;
+    left: 850px;
+    top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #777;
+    overflow: hidden;
+}
+
+p {
+    line-height: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+}
+
+.about-me-main {
+    position: relative;
+    top: 100px;
+    clear: both;
+}
+
+.about-me-full {
+    position: relative;
+    left: 45px;
+    top: 4px;
+    width: 50%;
+    background-color: #fff;
+    border: solid;
+    border-width: thin;
+    border-color: #ddd;
+    float: left;
+}
+
+.about-me-header {
+    position: relative;
+    margin: 25px;
+    background-color: #fff;
+    border-bottom: solid;
+    border-color: #ddd;
+    height: 62px;
+}
+
+.about-me-body {
+    position: relative;
+    margin: 25px;
+    background-color: #fff;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding-top: 10px;
+}
+
+.connect-box {
+    float: right;
+    position: relative;
+    top: 4px;
+    right: 250px;
+    width: 18%;
+    background-color: #fff;
+    border: solid;
+    border-width: thin;
+    border-color: #ddd;
+}
+
+h3 {
+    color: #4aaaa5;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.connect-header {
+    position: relative;
+    margin: 25px;
+    background-color: #fff;
+    border-bottom: solid;
+    border-color: #ddd;
+    border-width: thin;
+    height: 62px;
+}
+
+.social-media-body {
+    position: relative;
+    margin: 25px;
+    background-color: #fff;
+}
+
+.social-media-img {
+    position: relative;
+    display: inline;
+    margin-left: 25px;
+}
+
+.float-clear {
+    clear: both;
+}
+
+footer {
+    position: relative;
+    top: 575px;
+    background-color: #666666;
+    border-top: solid;
+    border-color: #4aaaa5;
+    border-width: thick;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 65px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 25px;
+}
+
+
+    
+
+
+
+ 

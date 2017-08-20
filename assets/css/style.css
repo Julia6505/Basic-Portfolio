@@ -18,6 +18,7 @@ header {
     background-color:#BDC2C8;
     position: fixed;
     margin-left: 60px;
+    border-bottom: solid #74797B .5px;
 }
 
 .header-name-style {
@@ -49,15 +50,22 @@ header {
     clear: both;
 }
 
+.about-me-header {
+    border-bottom: solid #74797B 1.5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 7px;
+}
+
 .about-me {
     color: #004A95;
     padding: 20px;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: -10px;
 }
 
 .body-container {
-position: relative;
 top: 79px;
 background-image: url('../images/vertical-waves.png');
 position: relative;
@@ -71,25 +79,102 @@ height: 550px;
     left: 60px;
     background-color: #DDE6EB;
     width: 60%;
-    height: 480px;
+    height: 470px;
     overflow: scroll;
+    float: left;
 }
 
 .profile-picture {
     float: left;
-    margin-top: 0;
+    margin-top: 20px;
     margin-right: 12px;
     margin-bottom: 0px;
     margin-left: 20px;
-    border: solid #444748 .5px;
-    
+    border: solid #444748 .5px; 
 }
 
-p {
+.about-me-text {
     line-height: 200%;
     font-family: 'Rubik', sans-serif;
-    margin-top: 0px;
+    margin-top: 13px;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 10pt; 
+}
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 200px;
+    float: right;
+    background-color: #DDE6EB;
+    position: relative;
+    top: 30px;
+    right: 60px;
+}
+
+.connect-with-me {
+    font-family: 'Berkshire Swash', cursive;
+    color: #004A95;
+    padding: 20px;
+    margin: auto;
+
+}
+
+.social-media-logos {
+    margin: auto;
+}
+
+.social-media-images {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+footer {
+    width: 100%;
+    background-color:#74797B;
+    position: fixed;
+    bottom: 0px;
+    border-top: solid #146795 3px;
+    margin: 0;
+}
+
+.footer-text {
+    font-family: 'Rubik', sans-serif;
+    font-size: 8px;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+label {
+    margin-left: 30px;
+}
+
+input[type=text] {
+    width: 80%;
+    margin-left: 30px;
+}
+
+textarea {
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+input[type=submit] {
+    margin-left: 30px;
+}
+
+.contact-me-header {
+    border-bottom: solid #74797B 1.5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 7px;
 }

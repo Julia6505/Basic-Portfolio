@@ -178,3 +178,41 @@ input[type=submit] {
     margin-bottom: 10px;
     padding: 7px;
 }
+
+.portfolio-header {
+    border-bottom: solid #74797B 1.5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+.port-pic-left-col {
+    float: left;
+    position: relative;
+    left: 100px;
+    top: 20px;
+
+}
+
+.port-pic-right-col {
+    float:right;
+    position: relative;
+    left: -100px;
+    top: 20px;
+}
+
+.portfolio-photos {
+    margin: 10px;
+}
+
+.column1-portfolio {
+    position: relative;
+    top: 30px;
+    left: 60px;
+    background-color: #DDE6EB;
+    width: 60%;
+    height: 470px;
+    overflow: scroll;
+    float: left;
+}
